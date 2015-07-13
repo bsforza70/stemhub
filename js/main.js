@@ -10,10 +10,6 @@ jQuery(document).ready(function($){
 		triggerFilter(false);
 	});
 
-	$( document ).ready(function() {
-    	triggerFilter(true);
-	});
-
 	function triggerFilter($bool) {
 		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter'), $('.cd-gallery')]);
 		elementsToTrigger.each(function(){

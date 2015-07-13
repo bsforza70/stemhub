@@ -267,7 +267,7 @@ a:active {
 }
 
 .caption:hover::before {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .caption__media {
@@ -335,7 +335,7 @@ input:hover {
 }
 .cd-gallery li {
   margin-bottom: 1.6em;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
   display: none;
   color: black;
   background-color: black;
@@ -782,7 +782,7 @@ input:hover {
 #addToMe li {
   margin-left: 6px;
   margin-right: 6px;
-  text-align: center;
+  text-align: left;
 }
 #addToMe {
   text-align:center;
