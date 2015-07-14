@@ -421,6 +421,11 @@ a:active {
     background-color: #ffffff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
     z-index: 1;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .cd-tab-filter-wrapper:after {
@@ -435,6 +440,19 @@ a:active {
     width: 140px;
     margin: 0 auto;
     z-index: 1;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.filter-is-visible {
+  -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .cd-tab-filter::after {
@@ -448,6 +466,11 @@ a:active {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -492,6 +515,11 @@ a:active {
     -ms-transform: translateY(-50%) rotate(-180deg);
     -o-transform: translateY(-50%) rotate(-180deg);
     transform: translateY(-50%) rotate(-180deg);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .cd-tab-filter.is-open ul {
@@ -510,6 +538,11 @@ a:active {
     .cd-tab-filter {
         width: auto;
         cursor: auto;
+        -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
     }
 
     .cd-tab-filter::after {
@@ -720,6 +753,11 @@ input:hover {
     display: none;
     color: black;
     background-color: black;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .cd-gallery li.gap {
