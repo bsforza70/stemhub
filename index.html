@@ -58,7 +58,6 @@
 		<body id="body" class="no-trans fixed-header-on">
 		<div id="titolo"><h1>STEMHub</h1></div>
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-		<div id="swiper"></div>
       <main id="maine" class="cd-main-content is-fixed">
 		<div class="cd-tab-filter-wrapper">
 			<div class="cd-tab-filter" id="trymebruh">
@@ -298,20 +297,14 @@
 		<script src="js/jquery.mixitup.min.js"></script>
 		<script src="js/main.js"></script>
 		<script> 
-		$('#swiper').swiperight(function(e) {triggerFilter(true)});
-		$('#swiper').swipeleft(function(e) {triggerFilter(false)});
-		//$('#swiper').swiperight(triggerFilter(true));
-		//$('#swiper').swipeleft(triggerFilter(false));
-
+		$('#body').swiperight(function(e) {triggerFilter(true)});
+		$('#body').swipeleft(function(e) {triggerFilter(false)});
 			var triggerFilter = function($bool) {
-				console.log("Changed Swipe Drawer State: " + $bool)
 				var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter')/*, $('.cd-gallery')*/]);
 				elementsToTrigger.each(function(){
 					$(this).toggleClass('filter-is-visible', $bool);
 				});
 				};
-
-
 		</script>
 		<script>
 		initialize(new google.maps.LatLng(38.624692, -90.184796));
