@@ -809,7 +809,7 @@ input:hover {
     -webkit-transition: -webkit-transform 0.3s, box-shadow 0.3s;
     -moz-transition: -moz-transform 0.3s, box-shadow 0.3s;
     transition: transform 0.3s, box-shadow 0.3s;
-    transition: all 0.55s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 .cd-filter::before {
@@ -1253,6 +1253,10 @@ input:hover {
 
 .btn-modal-a {
     margin-bottom: 15px !important;
+}
+
+.btn-modal-a:hover, .btn-modal-a:focus {
+  background-color: #2ecc71;
 }
 
 @media (max-width: 630px) {
