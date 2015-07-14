@@ -421,11 +421,6 @@ a:active {
     background-color: #ffffff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
     z-index: 1;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .cd-tab-filter-wrapper:after {
@@ -440,20 +435,7 @@ a:active {
     width: 140px;
     margin: 0 auto;
     z-index: 1;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-
-.filter-is-visible {
-  -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
+  }
 
 .cd-tab-filter::after {
     content: '';
@@ -466,11 +448,6 @@ a:active {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -515,11 +492,6 @@ a:active {
     -ms-transform: translateY(-50%) rotate(-180deg);
     -o-transform: translateY(-50%) rotate(-180deg);
     transform: translateY(-50%) rotate(-180deg);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .cd-tab-filter.is-open ul {
@@ -538,11 +510,6 @@ a:active {
     .cd-tab-filter {
         width: auto;
         cursor: auto;
-        -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
     }
 
     .cd-tab-filter::after {
@@ -623,15 +590,6 @@ a:active {
 .caption {
     position: relative;
     overflow: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 
 .caption::before {
@@ -643,20 +601,10 @@ a:active {
     left: 0;
     background: transparent;
     transition: background .35s ease-out;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .caption:hover::before {
     background: rgba(0, 0, 0, 0.6);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 
 }
 
@@ -665,11 +613,6 @@ a:active {
     min-width: 100%;
     max-width: 100%;
     height: auto;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .caption__overlay {
@@ -690,15 +633,6 @@ a:active {
 .caption:hover .caption__overlay {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 
 .caption__overlay__content, .caption__overlay__title {
@@ -726,11 +660,6 @@ a:active {
 .caption:hover .caption__overlay__title {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 input:hover {
@@ -740,11 +669,6 @@ input:hover {
 .cd-gallery {
     padding: 26px 5%;
     width: 100%;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .cd-gallery li {
@@ -753,11 +677,6 @@ input:hover {
     display: none;
     color: black;
     background-color: black;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .cd-gallery li.gap {
@@ -784,15 +703,6 @@ input:hover {
     width: 100%;
     overflow-y: hidden;
     opacity: 0.4;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -ms-transition: all 0.5s linear;
@@ -858,15 +768,6 @@ input:hover {
     background: #ffffff;
     box-shadow: 4px 4px 20px transparent;
     z-index: 2;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
@@ -922,15 +823,6 @@ input:hover {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.55s ease-in;
 }
