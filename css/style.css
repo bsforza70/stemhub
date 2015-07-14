@@ -364,7 +364,7 @@ a:active {
 
     .cd-header h1 {
         line-height: 180px;
-    };
+    }
 }
 
 .cd-main-content {
@@ -408,13 +408,13 @@ a:active {
 @media only screen and (min-width: 768px) {
     .cd-main-content.is-fixed .cd-gallery {
         padding-top: 90px;
-    };
+    }
 }
 
 @media only screen and (min-width: 1170px) {
     .cd-main-content.is-fixed .cd-gallery {
         padding-top: 100px;
-    };
+    }
 }
 
 .cd-tab-filter-wrapper {
@@ -553,7 +553,7 @@ a:active {
 
     .cd-tab-filter.is-open ul li {
         display: inline-block;
-    };
+    }
 }
 
 @media only screen and (min-width: 1170px) {
@@ -568,7 +568,7 @@ a:active {
 
     .cd-tab-filter.filter-is-visible {
         width: 80%;
-    };
+    }
 }
 
 .readmorecontainer {
@@ -738,7 +738,7 @@ input:hover {
     .cd-gallery li {
         width: 48%;
         margin-bottom: 2em;
-    };
+    }
 }
 
 @media only screen and (min-width: 1170px) {
@@ -756,7 +756,7 @@ input:hover {
 
     .cd-gallery.filter-is-visible {
         width: 80%;
-    };
+    }
 }
 
 .cd-filter {
@@ -838,7 +838,7 @@ input:hover {
 
     .cd-filter form {
         padding: 70px 10%;
-    };
+    }
 }
 
 .cd-filter-trigger {
@@ -879,7 +879,7 @@ input:hover {
 
     .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
         color: #ffffff;
-    };
+    }
 }
 
 .cd-filter-block {
@@ -920,7 +920,7 @@ input:hover {
     #returnto {
         height: 10vh;
         border-bottom: 2px solid #000;
-    };
+    }
 }
 
 .no-touch .cd-filter-block h4:hover {
@@ -1111,7 +1111,7 @@ input:hover {
 @-moz-document url-prefix() {
     .cd-filter-block .cd-select::after {
         display: none;
-    };
+    }
 }
 
 .button {
@@ -1161,7 +1161,7 @@ input:hover {
     #vmas {
         padding-top: 2.5vh;
         padding-bottom: 2.5vh;
-    };
+    }
 }
 
 #addToMe li {
@@ -1180,7 +1180,7 @@ input:hover {
         max-width: 88vw;
         min-width: 88vw;
         min-height: 88vw;
-    };
+    }
 }
 
 .navbar {
@@ -1194,7 +1194,7 @@ input:hover {
 @media (min-width: 767px) {
     .HAq {
         display: none;
-    };
+    }
 }
 
 .btn-modal-a {
@@ -1220,7 +1220,7 @@ input:hover {
 @media (max-width: 630px) {
     .btn-modal-a {
         width: 99.99%;
-    };
+    }
 }
 
 .prey {
