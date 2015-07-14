@@ -391,7 +391,7 @@ a:active {
 
 .cd-main-content.is-fixed .cd-filter {
     position: fixed;
-    height: 100vh;
+    height: 200vh;
     overflow: hidden;
 }
 
@@ -431,7 +431,7 @@ a:active {
 
 .cd-tab-filter {
     position: relative;
-    height: 50px;
+    height: 65px;
     width: 140px;
     margin: 0 auto;
     z-index: 1;
@@ -818,7 +818,7 @@ input:hover {
     position: absolute;
     top: 0;
     left: 0;
-    height: 50px;
+    height: 65px;
     width: 100%;
     background-color: #27ae60;
     z-index: 2;
@@ -832,8 +832,8 @@ input:hover {
     position: absolute;
     top: 0;
     right: 0;
-    height: 50px;
-    line-height: 50px;
+    height: 65px;
+    line-height: 69px;
     width: 60px;
     color: #ffffff;
     font-size: 1.3rem;
@@ -888,7 +888,7 @@ input:hover {
     top: 0;
     left: -20px;
     height: 50px;
-    line-height: 50px;
+    line-height: 69px;
     width: 60px;
     text-indent: 10%;
     white-space: nowrap;
@@ -910,9 +910,9 @@ input:hover {
         font-weight: 700;
         padding-left: 24px;
         background-position: left center;
-        -webkit-transition: color 0.3s;
-        -moz-transition: color 0.3s;
-        transition: color 0.3s;
+        -webkit-transition: color 1s;
+        -moz-transition: color 1s;
+        transition: color 1s;
     }
 
     .no-touch .cd-filter-trigger:hover {
@@ -1300,6 +1300,9 @@ input:hover {
 .trigga {
     color: #2ecc71;
     font-weight: bold;
+    -webkit-transition: color 1.6s ease-out;
+        -moz-transition: color 1.6s ease-out;
+        transition: color 1.6s ease-out;
 }
 
 .cd-close {
@@ -1326,8 +1329,8 @@ form {
     right: 35px;
     color: #2ecc71;
     z-index: 2 !important;
-    height: 50px;
-    line-height: 50px;
+    height: 65px;
+    line-height: 69px;
     width: 60px;
     white-space: nowrap;
     z-index: 3;
