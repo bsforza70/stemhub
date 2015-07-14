@@ -1,5 +1,12 @@
 var locym = " ";
 var map;
+var triggerFilter = function($bool) {
+		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter')/*, $('.cd-gallery')*/]);
+		elementsToTrigger.each(function(){
+			$(this).toggleClass('filter-is-visible', $bool);
+		});
+	};
+
 jQuery(document).ready(function($){
 	//open/close lateral filter
 
@@ -9,6 +16,7 @@ jQuery(document).ready(function($){
 	$('.cd-filter .cd-close').on('click', function(){
 		triggerFilter(false);
 	});
+
 
 	function triggerFilter($bool) {
 		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter')/*, $('.cd-gallery')*/]);
@@ -605,3 +613,8 @@ if (iOS != true) {
 	document.getElementById("cd-close").className += " " + "isnotios";
 	document.getElementById("titolo").className += " " + "isnotios";
 }
+/*
+$(function() {
+	$('#swiper').swiperight(triggerFilter(true));
+	$('#swiper').swipeleft(triggerFilter(false));
+});*/
