@@ -590,8 +590,11 @@ a:active {
 .caption {
     position: relative;
     overflow: hidden;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .caption::before {
@@ -633,11 +636,11 @@ a:active {
 .caption:hover .caption__overlay {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .caption__overlay__content, .caption__overlay__title {
@@ -645,7 +648,7 @@ a:active {
     font-style: normal;
     margin: 0;
     padding: 0 0 0.5em;
-    
+
 }
 
 .caption__overlay__title {
@@ -772,11 +775,11 @@ input:hover {
     background: #ffffff;
     box-shadow: 4px 4px 20px transparent;
     z-index: 2;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transform: translateX(-100%);
@@ -834,11 +837,11 @@ input:hover {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.55s ease-in;
 }
