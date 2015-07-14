@@ -633,6 +633,11 @@ a:active {
 .caption:hover .caption__overlay {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .caption__overlay__content, .caption__overlay__title {
@@ -640,6 +645,7 @@ a:active {
     font-style: normal;
     margin: 0;
     padding: 0 0 0.5em;
+    
 }
 
 .caption__overlay__title {
@@ -781,6 +787,7 @@ input:hover {
     -webkit-transition: -webkit-transform 0.3s, box-shadow 0.3s;
     -moz-transition: -moz-transform 0.3s, box-shadow 0.3s;
     transition: transform 0.3s, box-shadow 0.3s;
+    transition: all 0.55s ease-in;
 }
 
 .cd-filter::before {
@@ -827,8 +834,13 @@ input:hover {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    -webkit-transform: translateZ(0)
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.55s ease-in;
 }
 
 .cd-filter.filter-is-visible .cd-close {
