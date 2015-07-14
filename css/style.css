@@ -833,7 +833,7 @@ input:hover {
     top: 0;
     right: 0;
     height: 65px;
-    line-height: 90px;
+    line-height: 85px;
     width: 60px;
     color: #ffffff;
     font-size: 1.3rem;
@@ -888,7 +888,7 @@ input:hover {
     top: 0;
     left: -20px;
     height: 50px;
-    line-height: 90px;
+    line-height: 80px;
     width: 60px;
     text-indent: 10%;
     white-space: nowrap;
@@ -1330,7 +1330,7 @@ form {
     color: #2ecc71;
     z-index: 2 !important;
     height: 65px;
-    line-height: 90px;
+    line-height: 85px;
     width: 60px;
     white-space: nowrap;
     z-index: 3;
