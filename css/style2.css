@@ -133,7 +133,6 @@ a:active {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -492,7 +491,7 @@ input:hover {
 .cd-filter-trigger {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -20px;
   height: 50px;
   line-height: 50px;
   width: 60px;

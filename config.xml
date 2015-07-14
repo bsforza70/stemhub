@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "co.stemhub.app"
+        versionCode = "10" 
+        version     = "0.1.10" >
+
+    <name>STEMHub</name>
+
+    <description>
+        Connecting you with STEM resources.
+    </description>
+
+    <author href="http://www.bobsforza.com" email="rpsforza@gmail.com">
+        Bob Sforza
+    </author>
+
+    <preference name="permissions"                value="none"/>
+
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+
+    <preference name="SplashScreen"               value="none"/>            <!-- Should disable default cordova splash screen... -->
+    <preference name="DisallowOverscroll"         value="true" />           <!-- true disables the overscroll on ios devices. false allows. -->
+    <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce"              value="false" />          <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
+    <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
+    <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="exit-on-suspend"            value="true" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="show-splash-screen-spinner" value="false" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="disable-cursor"             value="true" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+    <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
+
+    <!--<gap:splash src="Defaultsplash.png" gap:platform="ios" />
+    <gap:splash src="Default-568h@2x.png" gap:platform="ios" height="1136" width="640"/>
+
+    <icon src="favicons/appicon/sizes/appicon-320.png" />
+
+    <icon src="favicons/appicon/android/ic_launcher_appicon/drawable-ldpi/ic_launcher_appicon.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="favicons/appicon/android/ic_launcher_appicon/drawable-mdpi/ic_launcher_appicon.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="favicons/appicon/android/ic_launcher_appicon/drawable-hdpi/ic_launcher_appicon.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="favicons/appicon/android/ic_launcher_appicon/drawable-xhdpi/ic_launcher_appicon.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+
+    <icon src="favicons/appicon/sizes/appicon-60.png" gap:platform="ios" width="60" height="60" />
+    <icon src="favicons/appicon/sizes/appicon-29.png" gap:platform="ios" width="29" height="29" />
+    <icon src="favicons/appicon/sizes/appicon-58.png" gap:platform="ios" width="58" height="58" />
+    <icon src="favicons/appicon/sizes/appicon-40.png" gap:platform="ios" width="40" height="40" />
+    <icon src="favicons/appicon/sizes/appicon-76.png" gap:platform="ios" width="76" height="76" />
+    <icon src="favicons/appicon/sizes/appicon-120.png" gap:platform="ios" width="120" height="120" />
+    <icon src="favicons/appicon/sizes/appicon-152.png" gap:platform="ios" width="152" height="152" />
+    <icon src="icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icon@2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+    <icon src="favicons/appicon/sizes/appicon-50.png" gap:platform="ios" width="50" height="50" />
+    <icon src="favicons/appicon/sizes/appicon-100.png" gap:platform="ios" width="100" height="100" />-->
+
+</widget>

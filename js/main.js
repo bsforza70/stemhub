@@ -460,9 +460,6 @@ var buttonFilter = {
 	             	var uz = (document.getElementsByClassName("mix").length - u) - 1;
 		             var locdiff = Math.sqrt(Math.pow(results[0].geometry.location.lat() - parseFloat(document.getElementsByClassName("mix")[uz].getAttribute("data-locxu")),2) + Math.pow(results[0].geometry.location.lng() - parseFloat(document.getElementsByClassName("mix")[uz].getAttribute("data-locyu")), 2));
 					 document.getElementsByClassName("mix")[uz].setAttribute("data-locd", locdiff);
-					 if (locdiff >= 6) {
-					 	liremove.unshift(uz);
-					 }
 		             u++;
 	         	}
 	         	var lenremove = liremove.length;
@@ -586,9 +583,6 @@ var map;
 						             	var uz = (document.getElementsByClassName("mix").length - u) - 1;
 							             var locdiff = Math.sqrt(Math.pow(results[0].geometry.location.lat() - parseFloat(document.getElementsByClassName("mix")[uz].getAttribute("data-locxu")),2) + Math.pow(results[0].geometry.location.lng() - parseFloat(document.getElementsByClassName("mix")[uz].getAttribute("data-locyu")), 2));
 										 document.getElementsByClassName("mix")[uz].setAttribute("data-locd", locdiff);
-										 if (locdiff >= 6) {
-										 	liremove.unshift(uz);
-										 }
 							             u++;
 						         	}
 						         	var lenremove = liremove.length;

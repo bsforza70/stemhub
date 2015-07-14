@@ -115,7 +115,7 @@
       <main class="cd-main-content">
 		<div class="cd-tab-filter-wrapper">
 			<div class="cd-tab-filter">
-				<ul class="cd-filters">
+				<!--<ul class="cd-filters">
 					<li class="placeholder"> 
 						<a data-type="all" href="#0">All</a>
 					</li> 
@@ -124,7 +124,7 @@
 					<li class="filter" data-filter=".Technology"><a href="#0" data-type="Technology">Technology</a></li>
 					<li class="filter" data-filter=".Engineering"><a href="#0" data-type="Engineering">Engineering</a></li>
 					<li class="filter" data-filter=".Mathematics"><a href="#0" data-type="Mathematics">Mathematics</a></li>
-				</ul>
+				</ul>-->
 			</div>
 		</div>
 		<section class="cd-gallery">
@@ -143,6 +143,36 @@
 					<div class="cd-filter-content">
 						<input type="search" placeholder="Enter a search...">
 					</div>
+				</div>
+				<div class="cd-filter-block">
+					<h4>Discipline</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter="" type="radio" name="radioButton2" checked>
+							<label class="radio-label">All</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".Science" type="radio" name="radioButton2">
+							<label class="radio-label">Science</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".Technology" type="radio" name="radioButton2">
+							<label class="radio-label">Technology</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".Engineering" type="radio" name="radioButton2">
+							<label class="radio-label">Engineering</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".Mathematics" type="radio" name="radioButton2">
+							<label class="radio-label">Mathematics</label>
+						</li>
+					</ul>
 				</div>
 				<div class="cd-filter-block">
 					<h4>Grade Level</h4>
@@ -179,7 +209,7 @@
 					</ul>
 				</div>
 				<div class="cd-filter-block">
-					<h4>Filter Type</h4>
+					<h4>Type</h4>
 					
 					<div class="cd-filter-content">
 						<div class="cd-select cd-filters">
@@ -240,7 +270,7 @@
 			</form>
 			<a href="#0" class="cd-close">Close</a>
 		</div>
-		<a href="#0" class="trigga cd-filter-trigger">Filters</a>
+		<a href="#0" class="trigga cd-filter-trigger"><i class="fa fa-bars"></i> Filters</a>
 	</main>
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		    <div class="modal-dialog">
