@@ -780,6 +780,8 @@ input:hover {
     -ms-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transform: translateX(-100%);
