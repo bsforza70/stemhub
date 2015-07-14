@@ -319,6 +319,7 @@ var buttonFilter = {
 	        	f++;
 	       	}
 
+
 	        if (dTu < dNu) {
 	        	var liu = '<li data-locxu="'+data[u].locx+'" data-locyu="'+data[u].locy+'" data-value="'+ data[u].price +'" data-date="'+dNu.getTime()+'" class="mix caption ' + typeu +' ' + data[u].description + ' ' + fi + ' ' + target + ' ' + data[u].cost + ' ' + tu + ' ' + data[u].imgalt +' '+ data[u].title + '"><img class="onezis" src="' + data[u].imgsrc + '" alt="' + data[u].imgalt + '"><div class="caption__overlay"><h1 class="caption__overlay__title">' + data[u].title + '</h1><p class="caption__overlay__content">' + data[u].description + '</p><div class="readmorecontainer"><a data-namem="' + data[u].title.toUpperCase() + '" data-k2y="'+ k2y +'" data-35y="'+ y35y +'" data-68y="'+ y68y +'" data-highy="'+ highy +'" data-collegey="'+ collegey +'" data-adulty="'+ adulty +'" data-imgsrcm="'+ data[u].imgsrc +'" data-pricem="'+ data[u].price +'" data-linkm="'+ data[u].link +'" data-descm="'+data[u].description+'" data-locm="'+ data[u].loc +'" data-datem="'+ data[u].date +'" data-toggle="modal" onclick="initialize(new google.maps.LatLng('+data[u].locx + ', ' + data[u].locy+'));" data-target="#exampleModal"><div class="button green center"><p id="vmas">View More</p></div></a></div></div></a></li>';
 	        	document.getElementById("addToMe").insertAdjacentHTML('afterbegin', liu);
@@ -415,7 +416,7 @@ var buttonFilter = {
 	        	var fi = fi + " " + field[f];
 	        	f++;
 	       	}
-
+//li img .caption__overlay {.caption__overlay__title .caption__overlay__content .readmorecontainer}
 	        if (dTu < dNu) { 
 	        	var liu = '<li data-locxu="'+data[u].locx+'" data-locyu="'+data[u].locy+'" data-value="'+ data[u].price +'" data-date="'+dNu.getTime()+'" class="mix caption ' + typeu +' ' + data[u].description + ' ' + fi + ' ' + target + ' ' + data[u].cost + ' ' + tu + ' ' + data[u].imgalt +' '+ data[u].title + '"><img class="onezis" src="' + data[u].imgsrc + '" alt="' + data[u].imgalt + '"><p style="position: absolute;color:white;top: 1%;right: 1%;">sponsored</p><div class="caption__overlay"><h1 class="caption__overlay__title">' + data[u].title + '</h1><p class="caption__overlay__content">' + data[u].description + '</p><div class="readmorecontainer"><a data-namem="' + data[u].title.toUpperCase() + '" data-k2y="'+ k2y +'" data-35y="'+ y35y +'" data-68y="'+ y68y +'" data-highy="'+ highy +'" data-collegey="'+ collegey +'" data-adulty="'+ adulty +'" data-imgsrcm="'+ data[u].imgsrc +'" data-pricem="'+ data[u].price +'" data-linkm="'+ data[u].link +'" data-descm="'+data[u].description+'" data-locm="'+ data[u].loc +'" data-datem="'+ data[u].date +'" data-toggle="modal" onclick="initialize(new google.maps.LatLng('+data[u].locx + ', ' + data[u].locy+'));" data-target="#exampleModal"><div class="button green center"><p id="vmas">View More</p></div></a></div></div></a></li>';
 	        	document.getElementById("addToMe").insertAdjacentHTML('afterbegin', liu);
@@ -437,11 +438,11 @@ var buttonFilter = {
 	         center: myLatlng1,
 	         styles: styles,
 	         scrollwheel: false,
-		     navigationControl: true,
+		     navigationControl: false,
 		     streetViewControl: false,
 		     mapTypeControl: false,
 		     scaleControl: false,
-		     panControl: true,
+		     panControl: false,
 		     draggable: true,
 	         mapTypeId: google.maps.MapTypeId.ROADMAP
 	     };
@@ -555,7 +556,7 @@ var map;
 						     streetViewControl: false,
 						     mapTypeControl: false,
 						     scaleControl: false,
-						     panControl: true,
+						     panControl: false,
 						     draggable: true,
 					         mapTypeId: google.maps.MapTypeId.ROADMAP
 					     };
