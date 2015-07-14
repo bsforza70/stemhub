@@ -596,4 +596,12 @@ var map;
 							    }
 							  });
 							}
-							
+
+var iOS = ( navigator.userAgent.match(/iPad|iPhone|iPod/g) ? true : false );
+if (iOS != true) {
+	document.getElementById("cd-fit").className += " " + "activeios";
+	document.getElementById("trymebruh").className += " " + "isnotios";
+	document.getElementById("triga").className += " " + "isnotios";
+	document.getElementById("cd-close").className += " " + "isnotios";
+	document.getElementById("titolo").className += " " + "isnotios";
+}
