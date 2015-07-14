@@ -595,6 +595,10 @@ a:active {
     -ms-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .caption::before {
@@ -641,6 +645,10 @@ a:active {
     -ms-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .caption__overlay__content, .caption__overlay__title {
@@ -710,6 +718,15 @@ input:hover {
     width: 100%;
     overflow-y: hidden;
     opacity: 0.4;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -ms-transition: all 0.5s linear;
@@ -844,6 +861,10 @@ input:hover {
     -ms-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.55s ease-in;
 }
